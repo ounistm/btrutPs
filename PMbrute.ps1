@@ -3,7 +3,7 @@ $st=[System.Diagnostics.Stopwatch]::StartNew()
 #=======================lazemlek 20malion malion =16!               =>mazal lazemlek analyse
 $place=@(48,49,50,51,52,53,54,55,56,57,97,98,99,100,101,102)
 for($i1=0;$i1 -le $place.Length-1;$i1++){
-$i1
+#$i1
 #---------------------boucle1
 $n1=[char]$place[$i1];#$n1
  #---------------------boucle2
