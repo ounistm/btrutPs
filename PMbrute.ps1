@@ -23,7 +23,7 @@ $n1=[char]$place[$i1];#$n1
       #---------------------boucle7
       for($i7=0;$i7 -le $place.Length-1;$i7++){
       $n7=[char]$place[$i7];#$n1+$n2+$n3+$n4+$n5+$n6+$n7
-      if(($n1 -eq "f") -AND ($n2-eq"f") -AND ($n3-eq"f")-AND ($n4-eq"f")-AND ($n5-eq"f") -AND ($n6-eq"f") -AND ($n6-eq"f") -AND ($n7-eq"f" ){Write-Host "oooooooooooook "} 
+      if(($n1 -eq "f") -AND ($n2-eq"f") -AND ($n3-eq"f")-AND ($n4-eq"f")-AND ($n5-eq"f") -AND ($n6-eq"f") -AND ($n6-eq"f" )  -AND ($n7-eq"f" )  ){Write-Host "oooooooooooook "} 
       }
        
      }         
