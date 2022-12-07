@@ -1,5 +1,19 @@
 
 $st=[System.Diagnostics.Stopwatch]::StartNew()
+<#
+creat hach with prin every hach
+                               -1k=4.07 S
+                               -10k=39  S    =>xk=4*x S
+creat hach without prin every hach
+                               -1k=2.6  S
+                               -10k=26  S    =>xk=2.6*x S
+-------------request timing
+creat request with print hash-10=5 S
+creat request without print hash +with if=-10=5.3 S
+-----------------------------GITHU
+creat request with print hash=>-10=12 S
+creat request without print hash +with if=>-10=
+#>
 #===============================================================================================the hach lenth=32
 #*the lenth of the random hash=32;the totall hach lenth=72
 
@@ -49,7 +63,7 @@ $session.Cookies.Add((New-Object System.Net.Cookie("PM_SESSION",$xxx, "/", "perf
 $userlogin=Invoke-WebRequest @LoginParameters -WebSession $session -ContentType "application/x-www-form-urlencoded"  -MaximumRedirection 0 -ErrorAction SilentlyContinue  
 #true  Length >24400
 #false Length <7500 7464
-$resLenth=$userlogin.RawContent.Length;$resLenth
+$resLenth=$userlogin.RawContent.Length;#$resLenth
 if($resLenth -gt 7463){
    Write-Host '----------- ok +hash= '$hash
   }
