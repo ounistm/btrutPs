@@ -1,6 +1,5 @@
 cls
 $st=[System.Diagnostics.Stopwatch]::StartNew()
-
 #===============================================================================================the hach lenth=32
 #*the lenth of the random hash=32;the totall hach lenth=72
 
@@ -44,10 +43,10 @@ $hash=$v1+$v2+$v3+$v4+$v5+$v6+$v7+$v8+$v9+$v10+$v11+$v12+$v13+$v14+$v15+$v16+$v1
 #$hash
 $session.Cookies.Add((New-Object System.Net.Cookie("PM_SESSION",$xxx, "/", "perfectmoney.com"))) #-------------------the variable
 
-#----------
+#----------the req
 
 
-$userlogin=Invoke-WebRequest @LoginParameters -WebSession $session -ContentType "application/x-www-form-urlencoded"  -MaximumRedirection 0 -ErrorAction SilentlyContinue  
+#---------------------------------------$userlogin=Invoke-WebRequest @LoginParameters -WebSession $session -ContentType "application/x-www-form-urlencoded"  -MaximumRedirection 0 -ErrorAction SilentlyContinue  
 #true  Length >24400
 #false Length <7500 7464
 $resLenth=$userlogin.RawContent.Length;$resLenth
