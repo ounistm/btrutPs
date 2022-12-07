@@ -11,7 +11,7 @@ creat hach without prin every hach
 creat request with print hash-10=5 S
 creat request without print hash +with if=-10=5.3 S
 -----------------------------GITHU
-creat request with print hash=>-10=12 S
+creat request with print hash=>-10=9.54 S
 creat request without print hash +with if=>-10=
 #>
 #===============================================================================================the hach lenth=32
@@ -64,7 +64,7 @@ $userlogin=Invoke-WebRequest @LoginParameters -WebSession $session -ContentType 
 #true  Length >24400
 #false Length <7500 7464
 $resLenth=$userlogin.RawContent.Length;#$resLenth
-if($resLenth -gt 7463){
+if($resLenth -gt 7464){
    Write-Host '----------- ok +hash= '$hash
   }
 }
