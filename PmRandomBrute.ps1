@@ -1,17 +1,5 @@
 cls
 $st=[System.Diagnostics.Stopwatch]::StartNew()
-<#
-creat hach with prin every hach
-                               -1k=4.07 S
-                               -10k=39  S    =>xk=4*x S
-creat hach with prin every hach
-                               -1k=2.6  S
-                               -10k=26  S    =>xk=2.6*x S
--------------request timing
-creat request with print
-                        -10=5 S
-creat request without print +with if=-10=5.3 S
-#>
 
 #===============================================================================================the hach lenth=32
 #*the lenth of the random hash=32;the totall hach lenth=72
