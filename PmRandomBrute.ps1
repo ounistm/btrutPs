@@ -1,4 +1,4 @@
-cls
+
 $st=[System.Diagnostics.Stopwatch]::StartNew()
 #===============================================================================================the hach lenth=32
 #*the lenth of the random hash=32;the totall hach lenth=72
