@@ -14,7 +14,8 @@ creat request without print hash +with if=-10=5.3 S
 1-creat request with print hash=>-10=9.54 S
 2-creat request without print hash +with if=>-10=9.63 S
    *using2=>10      =9.63S
-            100     =90    
+            100     =1.2 Mn
+            1K      =12  Mn
 #>
 #===============================================================================================the hach lenth=32
 #*the lenth of the random hash=32;the totall hach lenth=72
