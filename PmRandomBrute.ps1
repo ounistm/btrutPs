@@ -49,6 +49,7 @@ $LoginParameters = @{
 
 #-------------------------------------start for
 for($i=0;$i -le 100;$i++){
+$i
 $v1=(Get-Random -InputObject $list).ToString();$v2=(Get-Random -InputObject $list).ToString();$v3=(Get-Random -InputObject $list).ToString();$v4=(Get-Random -InputObject $list).ToString();
 $v5=(Get-Random -InputObject $list).ToString();$v6=(Get-Random -InputObject $list).ToString();$v7=(Get-Random -InputObject $list).ToString();$v8=(Get-Random -InputObject $list).ToString();$v9=(Get-Random -InputObject $list).ToString();
 $v10=(Get-Random -InputObject $list).ToString();$v11=(Get-Random -InputObject $list).ToString();$v12=(Get-Random -InputObject $list).ToString();$v13=(Get-Random -InputObject $list).ToString();$v14=(Get-Random -InputObject $list).ToString();
