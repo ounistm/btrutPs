@@ -15,7 +15,8 @@ creat request without print hash +with if=-10=5.3 S
 2-creat request without print hash +with if=>-10=9.63 S
    *using2=>10      =9.63S
             100     =1.2 Mn
-            1K      =12  Mn
+            1K      =13  Mn
+from hire            
 #>
 #===============================================================================================the hach lenth=32
 #*the lenth of the random hash=32;the totall hach lenth=72
@@ -48,8 +49,7 @@ $LoginParameters = @{
 
 
 #-------------------------------------start for
-for($i=0;$i -le 1000;$i++){
-$i
+for($i=0;$i -le 10000;$i++){
 $v1=(Get-Random -InputObject $list).ToString();$v2=(Get-Random -InputObject $list).ToString();$v3=(Get-Random -InputObject $list).ToString();$v4=(Get-Random -InputObject $list).ToString();
 $v5=(Get-Random -InputObject $list).ToString();$v6=(Get-Random -InputObject $list).ToString();$v7=(Get-Random -InputObject $list).ToString();$v8=(Get-Random -InputObject $list).ToString();$v9=(Get-Random -InputObject $list).ToString();
 $v10=(Get-Random -InputObject $list).ToString();$v11=(Get-Random -InputObject $list).ToString();$v12=(Get-Random -InputObject $list).ToString();$v13=(Get-Random -InputObject $list).ToString();$v14=(Get-Random -InputObject $list).ToString();
