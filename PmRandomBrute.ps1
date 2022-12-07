@@ -16,7 +16,7 @@ creat request without print hash +with if=-10=5.3 S
    *using2=>10      =9.63S
             100     =1.2 Mn
             1K      =13  Mn
-from hire            
+from hire 3639914041           
 #>
 #===============================================================================================the hach lenth=32
 #*the lenth of the random hash=32;the totall hach lenth=72
