@@ -10,9 +10,11 @@ creat hach without prin every hach
 -------------request timing
 creat request with print hash-10=5 S
 creat request without print hash +with if=-10=5.3 S
------------------------------GITHU
-creat request with print hash=>-10=9.54 S
-creat request without print hash +with if=>-10=
+-----------------------------GITHUB*******************
+1-creat request with print hash=>-10=9.54 S
+2-creat request without print hash +with if=>-10=9.63 S
+   *using2=>10      =9.63S
+            100     =90    
 #>
 #===============================================================================================the hach lenth=32
 #*the lenth of the random hash=32;the totall hach lenth=72
@@ -45,7 +47,7 @@ $LoginParameters = @{
 
 
 #-------------------------------------start for
-for($i=0;$i -le 10;$i++){
+for($i=0;$i -le 100;$i++){
 $v1=(Get-Random -InputObject $list).ToString();$v2=(Get-Random -InputObject $list).ToString();$v3=(Get-Random -InputObject $list).ToString();$v4=(Get-Random -InputObject $list).ToString();
 $v5=(Get-Random -InputObject $list).ToString();$v6=(Get-Random -InputObject $list).ToString();$v7=(Get-Random -InputObject $list).ToString();$v8=(Get-Random -InputObject $list).ToString();$v9=(Get-Random -InputObject $list).ToString();
 $v10=(Get-Random -InputObject $list).ToString();$v11=(Get-Random -InputObject $list).ToString();$v12=(Get-Random -InputObject $list).ToString();$v13=(Get-Random -InputObject $list).ToString();$v14=(Get-Random -InputObject $list).ToString();
