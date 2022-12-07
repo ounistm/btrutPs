@@ -10,5 +10,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: test for
-      run:  .\PMbrute.ps1
+      #run:  .\PmFor.ps1
+      run:  .\PmRandomBrute.ps1      
       shell: pwsh
