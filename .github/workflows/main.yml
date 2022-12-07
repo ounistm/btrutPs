@@ -8,11 +8,7 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - uses: actions/checkout@v3
-#    - name: run for
-#      run:  .\PmFor.ps1
-#      shell: pwsh
-      
+    - uses: actions/checkout@v3   
     - name: start randem b for
       run:  .\PmRandomBrute.ps1      
       shell: pwsh
