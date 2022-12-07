@@ -46,12 +46,12 @@ $session.Cookies.Add((New-Object System.Net.Cookie("PM_SESSION",$xxx, "/", "perf
 #----------the req
 
 
-#---------------------------------------$userlogin=Invoke-WebRequest @LoginParameters -WebSession $session -ContentType "application/x-www-form-urlencoded"  -MaximumRedirection 0 -ErrorAction SilentlyContinue  
+$userlogin=Invoke-WebRequest @LoginParameters -WebSession $session -ContentType "application/x-www-form-urlencoded"  -MaximumRedirection 0 -ErrorAction SilentlyContinue  
 #true  Length >24400
 #false Length <7500 7464
 $resLenth=$userlogin.RawContent.Length;$resLenth
 if($resLenth -gt 7463){
-   #Write-Host '----------- ok +hash= '$hash
+   Write-Host '----------- ok +hash= '$hash
   }
 }
 
