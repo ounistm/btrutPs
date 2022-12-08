@@ -18,7 +18,7 @@ creat request without print hash +with if=-10=5.3 S
             1K      =13  Mn
             10k     =2h
             
-*from hire CL#121
+*from hire CL#142
 *--Github acsept only 20 Guates
 #>
 #===============================================================================================the hach lenth=32
@@ -53,7 +53,7 @@ $LoginParameters = @{
 
 #-------------------------------------start for
 for($i=0;$i -le 1000000;$i++){
-$i    #pecouse the script stop with an error
+#$i    
 
 $v1=(Get-Random -InputObject $list).ToString();$v2=(Get-Random -InputObject $list).ToString();$v3=(Get-Random -InputObject $list).ToString();$v4=(Get-Random -InputObject $list).ToString();
 $v5=(Get-Random -InputObject $list).ToString();$v6=(Get-Random -InputObject $list).ToString();$v7=(Get-Random -InputObject $list).ToString();$v8=(Get-Random -InputObject $list).ToString();$v9=(Get-Random -InputObject $list).ToString();
