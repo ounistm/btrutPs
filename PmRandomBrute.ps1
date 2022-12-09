@@ -32,7 +32,7 @@ $session.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.
 
 $LoginParameters = @{
     #Uri= "https://perfectmoney.com/profile.html" ;Method= 'GET';
-    Uri= "https://www.google.com/" ;Method= 'GET';
+    Uri= "https://perfectmoney.is/profile.html" ;Method= 'GET';
     Headers=@{
 "Accept"="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
   "Accept-Encoding"="gzip, deflate, br"
